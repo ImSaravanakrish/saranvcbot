@@ -20,10 +20,7 @@ def _start(client, message):
                         "👥 Group", url=f"https://t.me/{SUPPORT_GROUP}"), 
                     InlineKeyboardButton(
                         "Channel 📢", url=f"https://t.me/{UPDATES_CHANNEL}")
-                ],[
-                    InlineKeyboardButton(
-                        "🔥 Source Code 🔥", url=f"https://{SOURCE_CODE}")
-                ]
+                ],
             ]
         ),
         reply_to_message_id=message.message_id
