@@ -15,12 +15,7 @@ def _start(client, message):
                 [
                     InlineKeyboardButton(
                         "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-                [
-                    InlineKeyboardButton(
-                        "👥 Group", url=f"https://t.me/{SUPPORT_GROUP}"), 
-                    InlineKeyboardButton(
-                        "Channel 📢", url=f"https://t.me/{UPDATES_CHANNEL}")
-                ],
+               
             ]
         ),
         reply_to_message_id=message.message_id
