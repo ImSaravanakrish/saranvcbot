@@ -26,12 +26,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "tgVCSets"
+      "value": "Tamilsupport"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "VCsMusicBot"
+      "value": "Tamilbots"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -50,7 +50,7 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "ZauteKm"
+      "value": "tamilbots"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
